@@ -1,0 +1,75 @@
+depend.mk
+util/range-find
+
+# Logs
+logs
+*/log/*
+*.log
+npm-debug.log*
+log/*
+!log/.gitkeep
+node/bin/log/*
+db/bank/log/*
+db/tasks
+db/jobs
+db/generators
+db/applications
+!db/apps
+db/results
+
+test-db/
+mocha-tests/etc/dcp-test-site-config.js
+
+#NPM
+node_modules/
+
+# documentation build directory
+docs/dist/*
+!docs/dist/.gitkeep
+
+# app build directory
+build/app.css
+!build/.gitkeep
+dist
+
+# database
+# db/*/*
+# !db/board/.gitkeep
+# !db/host/.gitkeep
+
+# editor temp files
+*~
+.#*
+\#*#
+*.swp
+*.swo
+
+# vscode settings
+.vscode/
+
+# macOS filesystem
+.DS_Store
+
+# automatically-generated files
+local-config.incl
+local-config.incl.old
+etc/local-config.json
+etc/local-config.json.old
+build-system/maps/evaluator-default.map
+
+# local config files
+etc/dcp-site-config.js
+etc/dcp-web-config.js
+build-system/etc/
+
+# default keystore files
+id.keystore
+default.keystore
+
+# a safe place for little test scripts
+tmp
+
+
+*.npy
+*/*.npy
+*/*/*.npy

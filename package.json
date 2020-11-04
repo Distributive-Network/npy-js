@@ -1,0 +1,19 @@
+{
+  "name": "npy-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "peter ./test",
+    "docs": "./node_modules/.bin/jsdoc -c ./jsdoc.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-docs": "^2.3.1",
+    "jsdoc": "^3.6.5"
+  },
+  "devDependencies": {
+    "peter": "^2.1.0-a"
+  }
+}
